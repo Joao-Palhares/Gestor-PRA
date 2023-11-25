@@ -1,0 +1,1667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Problems>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDMByID3) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_UpdateDMByID3.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDMByID2) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_UpdateDMByID2.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDMByID1) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_UpdateDMByID1.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDecisaoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Decisao\sp_UpdateDecisaoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Modulos\sp_GetModuloByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetModuloByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Modulos\sp_GetModuloByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDisciplinaByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Modulos\sp_GetModuloIDDisciplina.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetModuloIDDisciplina) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Modulos\sp_GetModuloIDDisciplina.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Modulos\sp_GetModulos.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetModulos) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Modulos\sp_GetModulos.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPraDMLigacao5) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao5.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPraDMLigacao3) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao3.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPraDMLigacao4) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao4.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode4.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDMByCode4) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode4.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode5.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDMByCode5) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode5.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode2.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDMByCode2) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode2.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode3.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDMByCode3) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode3.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDescricaoatividades3) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades3.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDescricaoatividades4) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades4.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDescricaoatividades5) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades5.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDescricaoatividades2) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades2.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePrhAlunoAvaliacaoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_UpdatePrhAlunoAvaliacaoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDescricaoAtividadesByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from VarChar(50) to VarChar(15).</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_UpdateDescricaoAtividadesByID.sql</SourceFile>
+    <Line>24</Line>
+    <Column>106</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDescricaoAtividadesByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_UpdateDescricaoAtividadesByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhPrincipalByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_GetPrhAvaliacaoByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhAvaliacaoByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_GetPrhAvaliacaoByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePrhPrincipalByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_UpdatePrhPrincipalByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessores.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetProfessores) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessores.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertTurma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_InsertTurma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessoresByDiretoria.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetProfessorByDiretoria) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessoresByDiretoria.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertCurso) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_InsertCurso.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_GetPraPrincipalByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPraPrincipalByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_GetPraPrincipalByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Notificacoes\sp_GetNotificacoesByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetNotificacoesByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Notificacoes\sp_GetNotificacoesByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Medidas\sp_GetMedidasByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetMedidasByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Medidas\sp_GetMedidasByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Decisao\sp_GetDecisaoByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDecisaoByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Decisao\sp_GetDecisaoByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateNotificaçoesByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Notificacoes\sp_UpdateNotificaçoesByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_UpgradePraPrincipalByID.sql</SourceFile>
+    <Line>14</Line>
+    <Column>8</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_UpgradePraPrincipalByID.sql</SourceFile>
+    <Line>24</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from VarChar(200) to Int.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_UpgradePraPrincipalByID.sql</SourceFile>
+    <Line>23</Line>
+    <Column>7</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePraPrincipalByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_UpgradePraPrincipalByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateMedidasByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Medidas\sp_UpdateMedidasByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDMByID5) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_UpdateDMByID5.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateDMByID4) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_UpdateDMByID4.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePrhDTAvaliacaoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_UpdatePrhDTAvaliacaoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePrhProfessorAvaliacaoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_UpdatePrhProfessorAvaliacaoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByUserID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunoByUserID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByUserID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_GetAvaliacaoByPrh.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAvaliacaoByPrh) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_GetAvaliacaoByPrh.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByPrh.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByPrh.sql</SourceFile>
+    <Line>6</Line>
+    <Column>46</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDescricaoAtividadesByPrh) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByPrh.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByPrh.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByPrh.sql</SourceFile>
+    <Line>6</Line>
+    <Column>39</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhPrincipalByPrh) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByPrh.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDT) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\DT\sp_InsertDT.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\DT\sp_GetDTByProfessor.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDTByProfessor) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\DT\sp_GetDTByProfessor.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateTurmaByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_UpdateTurmaByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByProfessor.sql</SourceFile>
+    <Line>6</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDisciplinaByProfessor) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByProfessor.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetProfessorByTurma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByTurma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByDT.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaByDT) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByDT.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertProfessorTurmaDisciplina) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_InsertProfessorTurmaDisciplina.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByTurma.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunoByTurma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByTurma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from ASCII String(1) to Bit.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertUserProfessor.sql</SourceFile>
+    <Line>6</Line>
+    <Column>22</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertUserProfessor) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertUserProfessor.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertTurmaDT) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_InsertTurmaDT.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_DeleteUserByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_DeleteUserByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_AuthenticateUser.sql</SourceFile>
+    <Line>52</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_AuthenticateUser) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_AuthenticateUser.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertAluno) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_InsertAluno.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from ASCII String(1) to Bit.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertUserAluno.sql</SourceFile>
+    <Line>6</Line>
+    <Column>22</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertUserAluno) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertUserAluno.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhEstadoByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhEstadoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhEstadoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByNome.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaByNome) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByNome.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByNomeAno.sql</SourceFile>
+    <Line>7</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaByNomeAno) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByNomeAno.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaByDiretorturma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByDiretorturma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByTurma.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaByTurma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByTurma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursoByDiretorcurso.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetCursoByDiretorcurso) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursoByDiretorcurso.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursoByNome.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetCursoByNome) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursoByNome.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByNumturma.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunoByNumturma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByNumturma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByProcesso.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunoByProcesso) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByProcesso.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUserByUsername.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetUserByUsername) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUserByUsername.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByNome.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from VarChar(100) to Int.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByNome.sql</SourceFile>
+    <Line>6</Line>
+    <Column>38</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDisciplinaByNome) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByNome.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByDisciplina.sql</SourceFile>
+    <Line>6</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetProfessorByDisciplina) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByDisciplina.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDisciplinaByTurma) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinaByTurma.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_ResetPassword) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Password\sp_ResetPassword.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Password\sp_GetPwdRequestDataByGUID.sql</SourceFile>
+    <Line>5</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPwdRequestDataByGUID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Password\sp_GetPwdRequestDataByGUID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_DeletePwdRequestByEmail) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Password\sp_DeletePwdRequestByEmail.sql</SourceFile>
+    <Line>2</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from ASCII String(1) to Bit.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertUserAdmin.sql</SourceFile>
+    <Line>6</Line>
+    <Column>22</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertUserAdmin) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertUserAdmin.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertNotificacoes) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Notificacoes\sp_InsertNotificacoes.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertMedidas) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Medidas\sp_InsertMedidas.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPrincipal) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Principal\sp_InsertPrincipal.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDecisao) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Decisao\sp_InsertDecisao.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaIDCurso.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaIDCurso) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaIDCurso.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursoByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetCursoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmaByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmaByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmas.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetTurmas) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Turmas\sp_GetTurmas.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursos.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetCursos) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Cursos\sp_GetCursos.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetProfessorByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from VarChar(100) to VarChar(10).</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_UpdateProfessorByID.sql</SourceFile>
+    <Line>20</Line>
+    <Column>64</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateProfessorByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_UpdateProfessorByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_DeleteProfessorByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_DeleteProfessorByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertProfessor) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_InsertProfessor.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_DeleteAlunoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_DeleteAlunoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0014</Rule>
+    <ProblemDescription>Data loss might occur when casting from VarChar(50) to Int.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_UpdateAlunoByID.sql</SourceFile>
+    <Line>23</Line>
+    <Column>7</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateAlunoByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_UpdateAlunoByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdateUserByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_UpdateUserByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUsers.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetUsers) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUsers.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUserByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetUserByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUserByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUserByEmail.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetUserByEmail) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_GetUserByEmail.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPwdRequest) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Password\sp_InsertPwdRequest.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByUserID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetProfessorByUserID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Professores\sp_GetProfessorByUserID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinas.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDisciplinas) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Disciplinas\sp_GetDisciplinas.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByName.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunoByName) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunoByName.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPraDMLigacao2) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao2.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetDMByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_GetDMByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPraDMLigacao) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPraByCode.sql</SourceFile>
+    <Line>5</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPraByCode) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPraByCode.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDM5) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_InsertDM5.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDM4) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_InsertDM4.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDM3) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_InsertDM3.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDM2) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_InsertDM2.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPrhPrincipal) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\PrhPrincipal\sp_InsertPrhPrincipal.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDescricaoatividades) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertAvaliacao) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Avaliacao\sp_InsertAvaliacao.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunos.sql</SourceFile>
+    <Line>4</Line>
+    <Column>9</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetAlunos) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Alunos\sp_GetAlunos.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhsByAluno) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhsByAluno.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhsByDT) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhsByDT.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrhsByProfessor) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_GetPrhsByProfessor.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePrhByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_UpdatePrhByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertEmailVerification) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\Users\sp_InsertEmailVerification.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPrh) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRH\Prh\sp_InsertPrh.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPraByID.sql</SourceFile>
+    <Line>6</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPraByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPraByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor1.sql</SourceFile>
+    <Line>10</Line>
+    <Column>54</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByProfessor1) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor1.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor2.sql</SourceFile>
+    <Line>10</Line>
+    <Column>54</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByProfessor2) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor2.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor3.sql</SourceFile>
+    <Line>10</Line>
+    <Column>54</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByProfessor3) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor3.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor4.sql</SourceFile>
+    <Line>10</Line>
+    <Column>54</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByProfessor4) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor4.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor5.sql</SourceFile>
+    <Line>10</Line>
+    <Column>54</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByProfessor5) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor5.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0007</Rule>
+    <ProblemDescription>Nullable columns can cause final results to be evaluated as NULL for the predicate.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor6.sql</SourceFile>
+    <Line>10</Line>
+    <Column>54</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByProfessor6) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByProfessor6.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertDM) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\DM\sp_InsertDM.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_InsertPra) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_InsertPra.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_UpdatePraByID) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_UpdatePraByID.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByAluno) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByAluno.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPrasByDT) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPrasByDT.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPra.sql</SourceFile>
+    <Line>4</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0016</Rule>
+    <ProblemDescription>Stored procedure(sp_GetPra) includes sp_ prefix in its name.</ProblemDescription>
+    <SourceFile>C:\Users\jonip\Desktop\papficc\Gestor\GestorDB\SProcedures\PRA\Pra\sp_GetPra.sql</SourceFile>
+    <Line>1</Line>
+    <Column>24</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+</Problems>

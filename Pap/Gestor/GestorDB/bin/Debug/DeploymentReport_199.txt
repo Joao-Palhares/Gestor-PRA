@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[sp_GetPra] (Procedure)
+       [dbo].[sp_GetPraByCode] (Procedure)
+       [dbo].[sp_GetPraByID] (Procedure)
+       [dbo].[sp_GetPraPrincipalByCode] (Procedure)
+       [dbo].[sp_GetPrasByAluno] (Procedure)
+       [dbo].[sp_GetPrasByDT] (Procedure)
+       [dbo].[sp_GetPrasByProfessor1] (Procedure)
+       [dbo].[sp_GetPrasByProfessor2] (Procedure)
+       [dbo].[sp_GetPrasByProfessor3] (Procedure)
+       [dbo].[sp_GetPrasByProfessor4] (Procedure)
+       [dbo].[sp_GetPrasByProfessor5] (Procedure)
+       [dbo].[sp_GetPrasByProfessor6] (Procedure)
+
+** Supporting actions

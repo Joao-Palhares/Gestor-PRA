@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column disciplina_modulo in table [dbo].[tblPraDM] is currently  VARCHAR (50) NOT NULL but is being changed
+         to  INT NOT NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[tblPraDM] (Table)
+       [dbo].[sp_InsertDM] (Procedure)
+       [dbo].[sp_InsertDM2] (Procedure)
+       [dbo].[sp_InsertDM3] (Procedure)
+       [dbo].[sp_InsertDM4] (Procedure)
+       [dbo].[sp_InsertDM5] (Procedure)
+       [dbo].[sp_UpdateDMByID1] (Procedure)
+       [dbo].[sp_UpdateDMByID2] (Procedure)
+       [dbo].[sp_UpdateDMByID3] (Procedure)
+       [dbo].[sp_UpdateDMByID4] (Procedure)
+       [dbo].[sp_UpdateDMByID5] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetDMByCode] (Procedure)
+       [dbo].[sp_GetDMByCode2] (Procedure)
+       [dbo].[sp_GetDMByCode3] (Procedure)
+       [dbo].[sp_GetDMByCode4] (Procedure)
+       [dbo].[sp_GetDMByCode5] (Procedure)
+       [dbo].[sp_GetDMByID1] (Procedure)
+       [dbo].[sp_GetDMByID2] (Procedure)
+       [dbo].[sp_GetDMByID3] (Procedure)
+       [dbo].[sp_GetDMByID4] (Procedure)
+       [dbo].[sp_GetDMByID5] (Procedure)
+       [dbo].[sp_GetDMByPra] (Procedure)
+
+The type for column disciplina_modulo in table [dbo].[tblPraDM] is currently  VARCHAR (50) NOT NULL but is being changed to  INT NOT NULL. Data loss could occur.
+

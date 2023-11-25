@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[tblPraNotificacoes] (Table)
+     Create
+       [dbo].[sp_GetDecisaoByPra] (Procedure)
+       [dbo].[sp_GetMedidasByPra] (Procedure)
+       [dbo].[sp_GetNotificacoesByPra] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetNotificacoesByCode] (Procedure)
+       [dbo].[sp_InsertNotificacoes] (Procedure)
+       [dbo].[sp_UpdateNotificaçoesByID] (Procedure)
