@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblAlunos].[pra] on table [dbo].[tblAlunos] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Alter
+       [dbo].[tblAlunos] (Table)
+       [dbo].[sp_InsertAluno] (Procedure)
+       [dbo].[sp_UpdateAlunoByID] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_DeleteAlunoByID] (Procedure)
+       [dbo].[sp_GetAlunoByID] (Procedure)
+       [dbo].[sp_GetAlunoByName] (Procedure)
+       [dbo].[sp_GetAlunoByNumturma] (Procedure)
+       [dbo].[sp_GetAlunoByProcesso] (Procedure)
+       [dbo].[sp_GetAlunoByTurma] (Procedure)
+       [dbo].[sp_GetAlunoByUserID] (Procedure)
+       [dbo].[sp_GetAlunos] (Procedure)
+       [dbo].[sp_GetPrasByAluno] (Procedure)
+       [dbo].[sp_GetPrasByDT] (Procedure)
+       [dbo].[sp_GetPrasByProfessor1] (Procedure)
+       [dbo].[sp_GetPrasByProfessor2] (Procedure)
+       [dbo].[sp_GetPrasByProfessor3] (Procedure)
+       [dbo].[sp_GetPrasByProfessor4] (Procedure)
+       [dbo].[sp_GetPrasByProfessor5] (Procedure)
+       [dbo].[sp_GetPrasByProfessor6] (Procedure)
+       [dbo].[sp_GetPrhsByAluno] (Procedure)
+       [dbo].[sp_GetPrhsByDT] (Procedure)
+       [dbo].[sp_GetPrhsByProfessor] (Procedure)
+
+The column [dbo].[tblAlunos].[pra] on table [dbo].[tblAlunos] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[tblAlunos] might introduce run-time errors in [dbo].[sp_GetPrhs].
+

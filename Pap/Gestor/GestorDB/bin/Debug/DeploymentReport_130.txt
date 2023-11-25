@@ -1,0 +1,46 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblFaltas]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblFaltas].[dia_da_falta] is being dropped, data loss could occur.
+       The column [dbo].[tblFaltas].[id_modulo] is being dropped, data loss could occur.
+       The column [dbo].[tblFaltas].[tempos_lecionados] is being dropped, data loss could occur.
+       The column [dbo].[tblFaltas].[id_aluno] on table [dbo].[tblFaltas] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[tblFaltas].[id_turma] on table [dbo].[tblFaltas] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[tblFaltas].[injustificada_justificada] on table [dbo].[tblFaltas] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[tblFaltas].[tempo_letivo] on table [dbo].[tblFaltas] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[tblFaltas] (Table)
+     Alter
+       [dbo].[sp_GetPrhs] (Procedure)
+     Create
+       [dbo].[sp_GetDTByProfessor] (Procedure)
+
+** Supporting actions
+
+The column [dbo].[tblFaltas].[dia_da_falta] is being dropped, data loss could occur.
+The column [dbo].[tblFaltas].[id_modulo] is being dropped, data loss could occur.
+The column [dbo].[tblFaltas].[tempos_lecionados] is being dropped, data loss could occur.
+The column [dbo].[tblFaltas].[id_aluno] on table [dbo].[tblFaltas] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[tblFaltas].[id_turma] on table [dbo].[tblFaltas] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[tblFaltas].[injustificada_justificada] on table [dbo].[tblFaltas] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[tblFaltas].[tempo_letivo] on table [dbo].[tblFaltas] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

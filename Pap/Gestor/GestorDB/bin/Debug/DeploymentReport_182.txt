@@ -1,0 +1,55 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblUsers]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblPrh].[progresso] on table [dbo].[tblPrh] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[tblUsers] (Default Constraint)
+       unnamed constraint on [dbo].[tblUsers] (Default Constraint)
+     Alter
+       [dbo].[tblPrh] (Table)
+       [dbo].[sp_GetPrhsByAluno] (Procedure)
+       [dbo].[sp_GetPrhsByDT] (Procedure)
+       [dbo].[sp_GetPrhsByProfessor] (Procedure)
+       [dbo].[sp_InsertPrh] (Procedure)
+       [dbo].[sp_UpdatePrhByID] (Procedure)
+     Table rebuild
+       [dbo].[tblUsers] (Table)
+     Create
+       [dbo].[sp_InsertEmailVerification] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblAlunos_tblUsers] (Foreign Key)
+     Create
+       [dbo].[FK_tblAlunos_tblUsers] (Foreign Key)
+     Refresh
+       [dbo].[sp_GetPrhByCode] (Procedure)
+       [dbo].[sp_GetPrhByID] (Procedure)
+       [dbo].[sp_GetPrhEstadoByID] (Procedure)
+       [dbo].[sp_AuthenticateUser] (Procedure)
+       [dbo].[sp_DeleteUserByID] (Procedure)
+       [dbo].[sp_GetUserByEmail] (Procedure)
+       [dbo].[sp_GetUserByID] (Procedure)
+       [dbo].[sp_GetUserByUsername] (Procedure)
+       [dbo].[sp_GetUsers] (Procedure)
+       [dbo].[sp_InsertUserAdmin] (Procedure)
+       [dbo].[sp_InsertUserAluno] (Procedure)
+       [dbo].[sp_InsertUserProfessor] (Procedure)
+       [dbo].[sp_ResetPassword] (Procedure)
+       [dbo].[sp_UpdateUserByID] (Procedure)
+
+The column [dbo].[tblPrh].[progresso] on table [dbo].[tblPrh] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column estado on table [dbo].[tblPrh] must be changed from NULL to NOT NULL. If the table contains data, the ALTER script may not work. To avoid this issue, you must add values to this column for all rows or mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[tblPrh] might introduce run-time errors in [dbo].[sp_GetPrhs].
+If this deployment is executed, changes to [dbo].[tblUsers] might introduce run-time errors in [dbo].[sp_InsertUser].
+

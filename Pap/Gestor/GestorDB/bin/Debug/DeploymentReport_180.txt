@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[tblPrh].[estado] (Column)
+     Alter
+       [dbo].[tblPrh] (Table)
+       [dbo].[sp_GetPrhsByAluno] (Procedure)
+       [dbo].[sp_GetPrhsByDT] (Procedure)
+       [dbo].[sp_GetPrhsByProfessor] (Procedure)
+       [dbo].[sp_InsertPrh] (Procedure)
+       [dbo].[sp_UpdatePrhByID] (Procedure)
+     Create
+       [dbo].[sp_GetPrhEstadoByID] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetPrhByCode] (Procedure)
+       [dbo].[sp_GetPrhByID] (Procedure)
+
+If this deployment is executed, changes to [dbo].[tblPrh] might introduce run-time errors in [dbo].[sp_GetPrhs].
+

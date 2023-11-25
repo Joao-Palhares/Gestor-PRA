@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tbldescricaoatividades]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[tbldescricaoatividades] (Table)
+     Alter
+       [dbo].[sp_UpdateDescricaoAtividadesByID] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tbldescricaoatividades_tblPrh] (Foreign Key)
+     Create
+       [dbo].[FK_tbldescricaoatividades_tblPrh] (Foreign Key)
+     Refresh
+       [dbo].[sp_GetDescricaoAtividadesByCode] (Procedure)
+       [dbo].[sp_GetDescricaoAtividadesByPrh] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades2] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades3] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades4] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades5] (Procedure)

@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[tblTurmas] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblTurmas_tblProfessores] (Foreign Key)
+     Create
+       [dbo].[FK_tblTurmas_tblProfessores] (Foreign Key)
+     Refresh
+       [dbo].[sp_GetPrhs] (Procedure)
+       [dbo].[sp_GetTurmaByID] (Procedure)
+       [dbo].[sp_GetTurmaIDCurso] (Procedure)
+       [dbo].[sp_GetTurmas] (Procedure)
+       [dbo].[sp_InsertTurma] (Procedure)
+       [dbo].[sp_UpdateTurmaByID] (Procedure)
+
+If this deployment is executed, changes to [dbo].[tblTurmas] might introduce run-time errors in [dbo].[sp_GetTurmaWhereCurso].
+

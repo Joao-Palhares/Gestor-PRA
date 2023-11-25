@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[tblPrhPrincipal] (Table)
+       [dbo].[sp_InsertPrhPrincipal] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetPrhPrincipalByCode] (Procedure)
+       [dbo].[sp_UpdatePrhPrincipalByID] (Procedure)

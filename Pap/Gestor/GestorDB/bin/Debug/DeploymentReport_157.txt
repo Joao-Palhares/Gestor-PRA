@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[tblProfessores].[nome_professor] (Column)
+     Alter
+       [dbo].[sp_GetPrhsByAluno] (Procedure)
+       [dbo].[sp_GetPrhsByDT] (Procedure)
+       [dbo].[sp_GetPrhsByProfessor] (Procedure)
+       [dbo].[sp_GetProfessorByTurma] (Procedure)
+       [dbo].[sp_InsertProfessor] (Procedure)
+       [dbo].[sp_UpdateProfessorByID] (Procedure)
+
+** Supporting actions
