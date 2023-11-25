@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblPra].[id_dm] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_tblPra_tblPraDM] (Foreign Key)
+     Alter
+       [dbo].[tblPra] (Table)
+       [dbo].[sp_InsertPra] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetPraByCode] (Procedure)
+
+The column [dbo].[tblPra].[id_dm] is being dropped, data loss could occur.
+

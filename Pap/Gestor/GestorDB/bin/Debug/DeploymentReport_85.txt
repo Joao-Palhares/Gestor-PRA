@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tbldescricaoatividades].[horario_final] is being dropped, data loss could occur.
+       The column [dbo].[tbldescricaoatividades].[horario_inicial] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[tbldescricaoatividades] (Table)
+       [dbo].[sp_InsertDescricaoatividades] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades2] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades3] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades4] (Procedure)
+       [dbo].[sp_InsertDescricaoatividades5] (Procedure)
+       [dbo].[sp_UpdateDescricaoAtividadesByID] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetDescricaoAtividadesByCode] (Procedure)
+
+The column [dbo].[tbldescricaoatividades].[horario_final] is being dropped, data loss could occur.
+The column [dbo].[tbldescricaoatividades].[horario_inicial] is being dropped, data loss could occur.
+

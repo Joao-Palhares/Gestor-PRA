@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[sp_InsertMedidas] (Procedure)
+       [dbo].[sp_InsertNotificacoes] (Procedure)
+       [dbo].[sp_InsertPra] (Procedure)
+       [dbo].[sp_InsertPrh] (Procedure)
+       [dbo].[sp_InsertPrhPrincipal] (Procedure)
+       [dbo].[sp_InsertPrincipal] (Procedure)
+
+** Supporting actions

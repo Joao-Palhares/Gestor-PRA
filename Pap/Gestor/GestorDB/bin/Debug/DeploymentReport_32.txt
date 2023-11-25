@@ -1,0 +1,32 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[tblPra] (Table)
+       [dbo].[tblPrh] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblPra_tblDecisao] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraDM] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraMedidas] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraNotificaçoes] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraPrincipal] (Foreign Key)
+       [dbo].[FK_tblPrh_tblAvaliacao] (Foreign Key)
+       [dbo].[FK_tblPrh_tblPrhPrincipal] (Foreign Key)
+     Create
+       [dbo].[FK_tblPra_tblDecisao] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraDM] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraMedidas] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraNotificaçoes] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraPrincipal] (Foreign Key)
+       [dbo].[FK_tblPrh_tblAvaliacao] (Foreign Key)
+       [dbo].[FK_tblPrh_tblPrhPrincipal] (Foreign Key)

@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblDecisao]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblDecisao].[decisao] is being dropped, data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[tblDecisao] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblPra_tblDecisao] (Foreign Key)
+     Create
+       [dbo].[FK_tblPra_tblDecisao] (Foreign Key)
+
+The column [dbo].[tblDecisao].[decisao] is being dropped, data loss could occur.
+

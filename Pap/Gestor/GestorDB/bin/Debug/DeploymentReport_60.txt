@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblPra].[id_decisao] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[tblPra] (Table)
+       [dbo].[sp_InsertPra] (Procedure)
+       [dbo].[sp_UpdatePraByID] (Procedure)
+       [dbo].[sp_InsertDecisao] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetPraByCode] (Procedure)
+
+The column [dbo].[tblPra].[id_decisao] is being dropped, data loss could occur.
+

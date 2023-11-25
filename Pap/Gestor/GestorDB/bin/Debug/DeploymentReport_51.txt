@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[tblPraDM] (Table)
+       [dbo].[tblPraDMLigacao] (Table)
+       [dbo].[tblPraMedidas] (Table)
+       [dbo].[tblPraNotificacoes] (Table)
+       [dbo].[tblPraPrincipal] (Table)
+     Create
+       [dbo].[sp_UpdateDecisaoByID] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblPraDMLigacao_tblPra] (Foreign Key)
+     Create
+       [dbo].[FK_tblPraDMLigacao_tblPra] (Foreign Key)
+     Refresh
+       [dbo].[sp_GetDMByCode] (Procedure)
+       [dbo].[sp_GetDMByCode2] (Procedure)
+       [dbo].[sp_GetDMByCode3] (Procedure)
+       [dbo].[sp_GetDMByCode4] (Procedure)
+       [dbo].[sp_GetDMByCode5] (Procedure)
+       [dbo].[sp_InsertDM] (Procedure)
+       [dbo].[sp_InsertDM2] (Procedure)
+       [dbo].[sp_InsertDM3] (Procedure)
+       [dbo].[sp_InsertDM4] (Procedure)
+       [dbo].[sp_InsertDM5] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao2] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao3] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao4] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao5] (Procedure)
+       [dbo].[sp_InsertMedidas] (Procedure)
+       [dbo].[sp_InsertNotificacoes] (Procedure)
+       [dbo].[sp_InsertPrincipal] (Procedure)

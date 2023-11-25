@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblPraDM].[dmcode] on table [dbo].[tblPraDM] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Alter
+       [dbo].[tblPraDM] (Table)
+       [dbo].[sp_InsertDM] (Procedure)
+       [dbo].[sp_InsertDM2] (Procedure)
+       [dbo].[sp_InsertDM3] (Procedure)
+       [dbo].[sp_InsertDM4] (Procedure)
+       [dbo].[sp_InsertDM5] (Procedure)
+     Create
+       [dbo].[sp_GetDMByCode] (Procedure)
+       [dbo].[sp_GetDMByCode2] (Procedure)
+       [dbo].[sp_GetDMByCode3] (Procedure)
+       [dbo].[sp_GetDMByCode4] (Procedure)
+       [dbo].[sp_GetDMByCode5] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao2] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao3] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao4] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao5] (Procedure)
+
+** Supporting actions
+
+The column [dbo].[tblPraDM].[dmcode] on table [dbo].[tblPraDM] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

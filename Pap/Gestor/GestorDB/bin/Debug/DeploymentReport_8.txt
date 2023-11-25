@@ -1,0 +1,69 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[tblAlunos] (Table)
+       [dbo].[tblAvaliacao] (Table)
+       [dbo].[tblCursos] (Table)
+       [dbo].[tblCursosDisciplinas] (Table)
+       [dbo].[tblCursosModulos] (Table)
+       [dbo].[tblCursosTurmas] (Table)
+       [dbo].[tblDecisao] (Table)
+       [dbo].[tbldescricaoatividades] (Table)
+       [dbo].[tblDisciplinas] (Table)
+       [dbo].[tblDisciplinasModulos] (Table)
+       [dbo].[tblEncarregadosEducacao] (Table)
+       [dbo].[tblFaltas] (Table)
+       [dbo].[tblModulos] (Table)
+       [dbo].[tblPra] (Table)
+       [dbo].[tblPraDM] (Table)
+       [dbo].[tblPraMedidas] (Table)
+       [dbo].[tblPraNotificacoes] (Table)
+       [dbo].[tblPraPrincipal] (Table)
+       [dbo].[tblPrh] (Table)
+       [dbo].[tblPrhPrincipal] (Table)
+       [dbo].[tblProfessores] (Table)
+       [dbo].[tblProfessoresDisciplinas] (Table)
+       [dbo].[tblProfessoresPra] (Table)
+       [dbo].[tblProfessoresTurmas] (Table)
+       [dbo].[tblTurmas] (Table)
+       [dbo].[tblUsers] (Table)
+       [dbo].[FK_tblAlunos_tblcursos] (Foreign Key)
+       [dbo].[FK_tblAlunos_tblUsers] (Foreign Key)
+       [dbo].[FK_tblCursosDisciplinas_tblCurso] (Foreign Key)
+       [dbo].[FK_tblCursosDisciplinas_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblCursosModulos_tblCurso] (Foreign Key)
+       [dbo].[FK_tblCursosModulos_tblModulos] (Foreign Key)
+       [dbo].[FK_tblCursosTurmas_tblCursos] (Foreign Key)
+       [dbo].[FK_tblCursosTurmas_tblTurmas] (Foreign Key)
+       [dbo].[FK_tbldescricaoatividades_tblPrh] (Foreign Key)
+       [dbo].[FK_tblCursos_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblDisciplinasModulos_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblDisciplinasModulos_tblModulos] (Foreign Key)
+       [dbo].[FK_tblEncarregadosEducaçao_tblAlunos] (Foreign Key)
+       [dbo].[FK_tblModulos_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraPrincipal] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraDM] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraMedidas] (Foreign Key)
+       [dbo].[FK_tblPra_tblPraNotificaçoes] (Foreign Key)
+       [dbo].[FK_tblPra_tblDecisao] (Foreign Key)
+       [dbo].[FK_tblPrh_tblPrhPrincipal] (Foreign Key)
+       [dbo].[FK_tblPrh_tblAvaliacao] (Foreign Key)
+       [dbo].[FK_tblProfessoresDisciplinas_tblProfessores] (Foreign Key)
+       [dbo].[FK_tblProfessoresDisciplinas_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblProfessoresPra_tblProfessores] (Foreign Key)
+       [dbo].[FK_tblProfessoresPra_tblPra] (Foreign Key)
+       [dbo].[FK_tblProfessoresTurmas_tblProfessores] (Foreign Key)
+       [dbo].[FK_tblCursosModulos_tblTurmas] (Foreign Key)
+       [dbo].[FK_tblTurmas_tblCursos] (Foreign Key)
+       [dbo].[FK_tblTurmas_tblProfessores] (Foreign Key)
+
+** Supporting actions

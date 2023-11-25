@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[tblPraDM].[avaliaçao] (Column)
+     Alter
+       [dbo].[sp_InsertDM] (Procedure)
+       [dbo].[sp_InsertDM2] (Procedure)
+       [dbo].[sp_InsertDM3] (Procedure)
+       [dbo].[sp_InsertDM4] (Procedure)
+       [dbo].[sp_InsertDM5] (Procedure)
+     Create
+       [dbo].[sp_UpdateDMByID1] (Procedure)
+       [dbo].[sp_UpdatePraByID] (Procedure)
+
+** Supporting actions

@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tbldescricaoatividades]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[tbldescricaoatividades].[horario_inicial] (Column)
+     Table rebuild
+       [dbo].[tbldescricaoatividades] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tbldescricaoatividades_tblPrh] (Foreign Key)
+     Create
+       [dbo].[FK_tbldescricaoatividades_tblPrh] (Foreign Key)

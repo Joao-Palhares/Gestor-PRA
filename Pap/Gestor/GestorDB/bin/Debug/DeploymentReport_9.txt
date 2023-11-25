@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[GetUsers] (Procedure)
+       [dbo].[sp_AuthenticateUser] (Procedure)
+       [dbo].[sp_DeleteAlunoByID] (Procedure)
+       [dbo].[sp_DeleteProfessorByID] (Procedure)
+       [dbo].[sp_DeleteUserByID] (Procedure)
+       [dbo].[sp_GetAlunoByID] (Procedure)
+       [dbo].[sp_GetProfessorByID] (Procedure)
+       [dbo].[sp_GetUserByEmail] (Procedure)
+       [dbo].[sp_GetUserByID] (Procedure)
+       [dbo].[sp_InsertAluno] (Procedure)
+       [dbo].[sp_InsertProfessor] (Procedure)
+       [dbo].[sp_InsertUser] (Procedure)
+       [dbo].[sp_UpdateAlunoByID] (Procedure)
+       [dbo].[sp_UpdateProfessorByID] (Procedure)
+       [dbo].[sp_UpdateUserByID] (Procedure)
+
+** Supporting actions

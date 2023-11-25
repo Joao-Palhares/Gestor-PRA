@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblCursos]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[tblCursos] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblAlunos_tblcursos] (Foreign Key)
+       [dbo].[FK_tblCursosDisciplinas_tblCurso] (Foreign Key)
+       [dbo].[FK_tblCursosModulos_tblCurso] (Foreign Key)
+       [dbo].[FK_tblCursosTurmas_tblCursos] (Foreign Key)
+       [dbo].[FK_tblCursos_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblTurmas_tblCursos] (Foreign Key)
+     Create
+       [dbo].[FK_tblAlunos_tblcursos] (Foreign Key)
+       [dbo].[FK_tblCursosDisciplinas_tblCurso] (Foreign Key)
+       [dbo].[FK_tblCursosModulos_tblCurso] (Foreign Key)
+       [dbo].[FK_tblCursosTurmas_tblCursos] (Foreign Key)
+       [dbo].[FK_tblCursos_tblDisciplinas] (Foreign Key)
+       [dbo].[FK_tblTurmas_tblCursos] (Foreign Key)

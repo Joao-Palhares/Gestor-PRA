@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblPraMedidas]
+       [dbo].[tblPraNotificacoes]
+       [dbo].[tblPraPrincipal]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[tblPraMedidas].[codemedidas] on table [dbo].[tblPraMedidas] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[tblPraNotificacoes].[codenotificaçoes] on table [dbo].[tblPraNotificacoes] must be added, but the
+         column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work.
+         To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+       The column [dbo].[tblPraPrincipal].[codepraprincipal] on table [dbo].[tblPraPrincipal] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[tblPraMedidas] (Table)
+       [dbo].[tblPraNotificacoes] (Table)
+       [dbo].[tblPraPrincipal] (Table)
+     Alter
+       [dbo].[sp_InsertMedidas] (Procedure)
+       [dbo].[sp_InsertNotificacoes] (Procedure)
+       [dbo].[sp_InsertPrincipal] (Procedure)
+       [dbo].[sp_InsertPraDMLigacao] (Procedure)
+     Create
+       [dbo].[sp_UpdateMedidasByID] (Procedure)
+       [dbo].[sp_UpdateNotificaçoesByID] (Procedure)
+       [dbo].[sp_UpdatePraPrincipalByID] (Procedure)
+
+** Supporting actions
+
+The column [dbo].[tblPraMedidas].[codemedidas] on table [dbo].[tblPraMedidas] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[tblPraNotificacoes].[codenotificaçoes] on table [dbo].[tblPraNotificacoes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[tblPraPrincipal].[codepraprincipal] on table [dbo].[tblPraPrincipal] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

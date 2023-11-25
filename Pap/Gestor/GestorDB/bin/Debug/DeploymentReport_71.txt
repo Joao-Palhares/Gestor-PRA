@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[tblPraDM] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[sp_GetDMByCode] (Procedure)
+       [dbo].[sp_GetDMByCode2] (Procedure)
+       [dbo].[sp_GetDMByCode3] (Procedure)
+       [dbo].[sp_GetDMByCode4] (Procedure)
+       [dbo].[sp_GetDMByCode5] (Procedure)
+       [dbo].[sp_InsertDM] (Procedure)
+       [dbo].[sp_InsertDM2] (Procedure)
+       [dbo].[sp_InsertDM3] (Procedure)
+       [dbo].[sp_InsertDM4] (Procedure)
+       [dbo].[sp_InsertDM5] (Procedure)
+       [dbo].[sp_UpdateDMByID1] (Procedure)
+       [dbo].[sp_UpdateDMByID2] (Procedure)
+       [dbo].[sp_UpdateDMByID3] (Procedure)
+       [dbo].[sp_UpdateDMByID4] (Procedure)
+       [dbo].[sp_UpdateDMByID5] (Procedure)

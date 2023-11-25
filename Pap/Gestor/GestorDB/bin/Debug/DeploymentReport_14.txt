@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblUsers]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[tblUsers] (Table)
+     Alter
+       [dbo].[sp_AuthenticateUser] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblAlunos_tblUsers] (Foreign Key)
+     Create
+       [dbo].[FK_tblAlunos_tblUsers] (Foreign Key)
+     Refresh
+       [dbo].[GetUsers] (Procedure)
+       [dbo].[sp_DeleteUserByID] (Procedure)
+       [dbo].[sp_GetUserByEmail] (Procedure)
+       [dbo].[sp_GetUserByID] (Procedure)
+       [dbo].[sp_InsertUser] (Procedure)
+       [dbo].[sp_UpdateUserByID] (Procedure)

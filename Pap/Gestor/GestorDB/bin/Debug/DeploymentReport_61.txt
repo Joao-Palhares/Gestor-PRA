@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[tblPra]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[tblPra] (Table)
+     Alter
+       [dbo].[sp_InsertPra] (Procedure)
+       [dbo].[sp_UpdatePraByID] (Procedure)
+     Create
+       [dbo].[sp_GetDecisaoByCode] (Procedure)
+       [dbo].[sp_GetMedidasByCode] (Procedure)
+       [dbo].[sp_GetNotificacoesByCode] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_tblPraDMLigacao_tblPra] (Foreign Key)
+       [dbo].[FK_tblProfessoresPra_tblPra] (Foreign Key)
+     Create
+       [dbo].[FK_tblPraDMLigacao_tblPra] (Foreign Key)
+       [dbo].[FK_tblProfessoresPra_tblPra] (Foreign Key)
+     Refresh
+       [dbo].[sp_GetPraByCode] (Procedure)
