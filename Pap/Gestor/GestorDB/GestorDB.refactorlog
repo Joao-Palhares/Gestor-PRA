@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="ac66d93b-f39b-47b9-b434-73e5a6f9fe6d" ChangeDateTime="03/03/2020 16:45:37">
+    <Property Name="ElementName" Value="[dbo].[tbldescricaoatividades].[horario]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbldescricaoatividades]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="horario_inicial" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d299466a-b913-4be5-83c2-88babb7e4e08" ChangeDateTime="03/09/2020 09:33:06">
+    <Property Name="ElementName" Value="[dbo].[tblUsers].[n_logins]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblUsers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="isfirstlogin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82fc3b0e-dc13-48be-ad62-972ee00b14d5" ChangeDateTime="03/09/2020 12:02:42">
+    <Property Name="ElementName" Value="[dbo].[tblProfessores].[disciplina1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblProfessores]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_professor_disciplina" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c73c751-6013-4338-a012-cb74bf898dc1" ChangeDateTime="04/15/2020 16:53:46">
+    <Property Name="ElementName" Value="[dbo].[tblPraDM].[avaliaçao]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPraDM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cumprimento" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37cc4a6e-91ef-4c65-818e-f22a086565f7" ChangeDateTime="04/27/2020 18:54:39">
+    <Property Name="ElementName" Value="[dbo].[tblPraDMLigacao].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPraDMLigacao]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_pra_dm" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e1e4cc13-f745-4971-8687-4931b6c24d1e" ChangeDateTime="05/12/2020 00:02:33">
+    <Property Name="ElementName" Value="[dbo].[tblPraDM].[cumprimento]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPraDM]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="avaliaçao" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c92dc01-a838-46ac-8636-e1ba425fbb51" ChangeDateTime="05/12/2020 09:51:26">
+    <Property Name="ElementName" Value="[dbo].[tblPraMedidas].[Medidas]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPraMedidas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="codemedidas" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fa8f34f6-9927-4684-b75a-a6529ac292d0" ChangeDateTime="06/03/2020 22:35:02">
+    <Property Name="ElementName" Value="[dbo].[tblPraPrincipal].[nome_aluno]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPraPrincipal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_aluno" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ce5e5127-be3b-4298-841e-c8f7f2d383ad" ChangeDateTime="06/05/2020 23:42:54">
+    <Property Name="ElementName" Value="[dbo].[tblPrhPrincipal].[nome_aluno]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPrhPrincipal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_aluno" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5732202a-b0b5-42c6-a2e3-487233548821" ChangeDateTime="06/10/2020 19:33:35">
+    <Property Name="ElementName" Value="[dbo].[tblTurmaDT].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTurmaDT]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_turma_dt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="439d7876-6a1d-46d5-a82e-2cf78ac0c16f" ChangeDateTime="06/10/2020 19:33:51">
+    <Property Name="ElementName" Value="[dbo].[tblTurmaDT].[Id_turma_dt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblTurmaDT]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_turma_dt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a286138-7389-4be3-abac-2b0c68946704" ChangeDateTime="06/11/2020 19:44:47">
+    <Property Name="ElementName" Value="[dbo].[tblProfessorTurmaDisciplina].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblProfessorTurmaDisciplina]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_ProfessorTurmaDisciplina" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e07b9093-7ca6-4023-91f1-51dc1396589b" ChangeDateTime="06/13/2020 16:28:22">
+    <Property Name="ElementName" Value="[dbo].[tblDT].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblDT]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_dt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="739f7ff7-5c6b-478f-a72a-39240bedb6f7" ChangeDateTime="06/17/2020 16:01:55">
+    <Property Name="ElementName" Value="[dbo].[tblFaltas].[Tempo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblFaltas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="tempo_letivo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea18e7d7-09b5-4262-87a6-ed47c6bd9169" ChangeDateTime="06/17/2020 16:04:23">
+    <Property Name="ElementName" Value="[dbo].[tblFaltas].[justificação]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblFaltas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="injustificada_justificada" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87e76f00-136d-4691-b46a-e7179bebb709" ChangeDateTime="06/24/2020 23:39:28">
+    <Property Name="ElementName" Value="[dbo].[tblAlunos].[nome]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblAlunos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nome_aluno" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2b9b2b6b-b572-4364-8828-040913b4ad88" ChangeDateTime="06/24/2020 23:43:17">
+    <Property Name="ElementName" Value="[dbo].[tblProfessores].[nome]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblProfessores]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nome_professor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="46a72cd6-eddf-4a68-b4ff-f84c47e38770" ChangeDateTime="06/24/2020 23:45:30">
+    <Property Name="ElementName" Value="[dbo].[tblDT].[nome]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblDT]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nome_dt" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6f7f3bdd-96d6-445e-abeb-6dc95d56e019" ChangeDateTime="06/26/2020 11:19:43">
+    <Property Name="ElementName" Value="[dbo].[tblPrh].[Complete]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPrh]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="estado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cec8edec-590f-4080-9a56-171abf03c09c" ChangeDateTime="06/30/2020 15:29:43">
+    <Property Name="ElementName" Value="[dbo].[tblPra].[id_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblPra]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_turma" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c07c0a6-f187-45eb-a442-c5480fee55d4" ChangeDateTime="07/01/2020 20:12:20">
+    <Property Name="ElementName" Value="[dbo].[tblAlunos].[PrAa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblAlunos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Pra" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="af84a50c-1695-4497-b497-59091775dd58" ChangeDateTime="07/01/2020 20:15:52">
+    <Property Name="ElementName" Value="[dbo].[tblAlunos].[Pra]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tblAlunos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="pra" />
+  </Operation>
+</Operations>

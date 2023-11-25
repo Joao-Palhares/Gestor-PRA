@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>GestorDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{bd6c1198-3d14-45b6-aac7-a9e505beaae4}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>GestorDB</RootNamespace>
+    <AssemblyName>GestorDB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="SProcedures" />
+    <Folder Include="SProcedures\Users" />
+    <Folder Include="SProcedures\Alunos" />
+    <Folder Include="SProcedures\Professores" />
+    <Folder Include="SProcedures\Cursos" />
+    <Folder Include="SProcedures\Turmas" />
+    <Folder Include="SProcedures\PRH" />
+    <Folder Include="SProcedures\PRA" />
+    <Folder Include="SProcedures\PRA\Decisao" />
+    <Folder Include="SProcedures\PRA\Principal" />
+    <Folder Include="SProcedures\PRA\Medidas" />
+    <Folder Include="SProcedures\PRA\Notificacoes" />
+    <Folder Include="SProcedures\PRA\DM" />
+    <Folder Include="SProcedures\PRA\Pra" />
+    <Folder Include="SProcedures\PRH\Prh" />
+    <Folder Include="SProcedures\PRH\PrhPrincipal" />
+    <Folder Include="SProcedures\PRH\Avaliacao" />
+    <Folder Include="SProcedures\PRH\Descricaoatividades" />
+    <Folder Include="SProcedures\PRA\PraDMLigacao" />
+    <Folder Include="SProcedures\Disciplinas" />
+    <Folder Include="SProcedures\Modulos" />
+    <Folder Include="SProcedures\Faltas" />
+    <Folder Include="SProcedures\DT" />
+    <Folder Include="SProcedures\Password" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\tblAlunos.sql" />
+    <Build Include="Tables\tblAvaliacao.sql" />
+    <Build Include="Tables\tblCursos.sql" />
+    <Build Include="Tables\tblCursosDisciplinas.sql" />
+    <Build Include="Tables\tblCursosModulos.sql" />
+    <Build Include="Tables\tblCursosTurmas.sql" />
+    <Build Include="Tables\tblDecisao.sql" />
+    <Build Include="Tables\tbldescricaoatividades.sql" />
+    <Build Include="Tables\tblDisciplinas.sql" />
+    <Build Include="Tables\tblEncarregadosEducacao.sql" />
+    <Build Include="Tables\tblFaltas.sql" />
+    <Build Include="Tables\tblModulos.sql" />
+    <Build Include="Tables\tblPra.sql" />
+    <Build Include="Tables\tblPraDM.sql" />
+    <Build Include="Tables\tblPraMedidas.sql" />
+    <Build Include="Tables\tblPraNotificacoes.sql" />
+    <Build Include="Tables\tblPraPrincipal.sql" />
+    <Build Include="Tables\tblPrh.sql" />
+    <Build Include="Tables\tblPrhPrincipal.sql" />
+    <Build Include="Tables\tblProfessores.sql" />
+    <Build Include="Tables\tblProfessoresDisciplinas.sql" />
+    <Build Include="Tables\tblProfessoresPra.sql" />
+    <Build Include="Tables\tblTurmas.sql" />
+    <Build Include="Tables\tblUsers.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades2.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades5.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades4.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades3.sql" />
+    <Build Include="Tables\tblPraDMLigacao.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByCode3.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByCode2.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByCode5.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByCode4.sql" />
+    <Build Include="SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao4.sql" />
+    <Build Include="SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao3.sql" />
+    <Build Include="SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao5.sql" />
+    <Build Include="SProcedures\Modulos\sp_GetModulos.sql" />
+    <Build Include="SProcedures\Modulos\sp_GetModuloIDDisciplina.sql" />
+    <Build Include="SProcedures\Disciplinas\sp_GetDisciplinaByID.sql" />
+    <Build Include="SProcedures\Modulos\sp_GetModuloByID.sql" />
+    <Build Include="SProcedures\PRA\Decisao\sp_UpdateDecisaoByID.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_UpdateDMByID1.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_UpdateDMByID2.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_UpdateDMByID3.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_UpdateDMByID4.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_UpdateDMByID5.sql" />
+    <Build Include="SProcedures\PRA\Medidas\sp_UpdateMedidasByID.sql" />
+    <Build Include="SProcedures\PRA\Principal\sp_UpgradePraPrincipalByID.sql" />
+    <Build Include="SProcedures\PRA\Notificacoes\sp_UpdateNotificaçoesByID.sql" />
+    <Build Include="SProcedures\PRA\Decisao\sp_GetDecisaoByCode.sql" />
+    <Build Include="SProcedures\PRA\Medidas\sp_GetMedidasByCode.sql" />
+    <Build Include="SProcedures\PRA\Notificacoes\sp_GetNotificacoesByCode.sql" />
+    <Build Include="SProcedures\PRA\Principal\sp_GetPraPrincipalByCode.sql" />
+    <Build Include="SProcedures\Cursos\sp_InsertCurso.sql" />
+    <Build Include="SProcedures\Professores\sp_GetProfessoresByDiretoria.sql" />
+    <Build Include="SProcedures\Turmas\sp_InsertTurma.sql" />
+    <Build Include="SProcedures\Professores\sp_GetProfessores.sql" />
+    <Build Include="SProcedures\PRH\PrhPrincipal\sp_UpdatePrhPrincipalByID.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_UpdatePrhByID.sql" />
+    <Build Include="SProcedures\PRH\Avaliacao\sp_GetPrhAvaliacaoByCode.sql" />
+    <Build Include="SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByCode.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_UpdateDescricaoAtividadesByID.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByCode.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_GetPrhByCode.sql" />
+    <Build Include="SProcedures\PRH\Avaliacao\sp_UpdatePrhAlunoAvaliacaoByID.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_GetPrhsByDT.sql" />
+    <Build Include="Tables\tblTurmaDT.sql" />
+    <Build Include="SProcedures\Turmas\sp_InsertTurmaDT.sql" />
+    <Build Include="SProcedures\Users\sp_InsertUserProfessor.sql" />
+    <Build Include="SProcedures\Alunos\sp_GetAlunoByTurma.sql" />
+    <Build Include="Tables\tblProfessorTurmaDisciplina.sql" />
+    <Build Include="SProcedures\Professores\sp_InsertProfessorTurmaDisciplina.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmaByDT.sql" />
+    <Build Include="SProcedures\Professores\sp_GetProfessorByTurma.sql" />
+    <Build Include="SProcedures\Disciplinas\sp_GetDisciplinaByProfessor.sql" />
+    <Build Include="Tables\tblDT.sql" />
+    <Build Include="SProcedures\Turmas\sp_UpdateTurmaByID.sql" />
+    <Build Include="SProcedures\DT\sp_GetDTByProfessor.sql" />
+    <Build Include="SProcedures\DT\sp_InsertDT.sql" />
+    <Build Include="SProcedures\PRH\PrhPrincipal\sp_GetPrhPrincipalByPrh.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_GetPrhByID.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_GetDescricaoAtividadesByPrh.sql" />
+    <Build Include="SProcedures\PRH\Avaliacao\sp_GetAvaliacaoByPrh.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_GetPrhsByAluno.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_GetPrhsByProfessor.sql" />
+    <Build Include="SProcedures\Alunos\sp_GetAlunoByUserID.sql" />
+    <Build Include="SProcedures\PRH\Avaliacao\sp_UpdatePrhProfessorAvaliacaoByID.sql" />
+    <Build Include="SProcedures\PRH\Avaliacao\sp_UpdatePrhDTAvaliacaoByID.sql" />
+    <Build Include="SProcedures\Users\sp_InsertUserAdmin.sql" />
+    <Build Include="SProcedures\Password\sp_DeletePwdRequestByEmail.sql" />
+    <Build Include="SProcedures\Password\sp_GetPwdRequestDataByGUID.sql" />
+    <Build Include="SProcedures\Password\sp_ResetPassword.sql" />
+    <Build Include="Tables\tblNewPwdRequests.sql" />
+    <Build Include="SProcedures\Disciplinas\sp_GetDisciplinaByTurma.sql" />
+    <Build Include="SProcedures\Professores\sp_GetProfessorByDisciplina.sql" />
+    <Build Include="SProcedures\Disciplinas\sp_GetDisciplinaByNome.sql" />
+    <Build Include="SProcedures\Users\sp_GetUserByUsername.sql" />
+    <Build Include="SProcedures\Alunos\sp_GetAlunoByProcesso.sql" />
+    <Build Include="SProcedures\Alunos\sp_GetAlunoByNumturma.sql" />
+    <Build Include="SProcedures\Cursos\sp_GetCursoByNome.sql" />
+    <Build Include="SProcedures\Cursos\sp_GetCursoByDiretorcurso.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmaByTurma.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmaByDiretorturma.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmaByNomeAno.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmaByNome.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_GetPrhEstadoByID.sql" />
+    <Build Include="SProcedures\Users\sp_InsertEmailVerification.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPraByID.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByAluno.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByDT.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByProfessor1.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByProfessor2.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByProfessor3.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByProfessor5.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPrasByProfessor4.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_GetPra.sql" />
+    <Build Include="SProcedures\PRA\Principal\sp_GetPraPrincipalByPra.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByPra.sql" />
+    <Build Include="SProcedures\PRA\Medidas\sp_GetMedidasByPra.sql" />
+    <Build Include="SProcedures\PRA\Notificacoes\sp_GetNotificacoesByPra.sql" />
+    <Build Include="SProcedures\PRA\Decisao\sp_GetDecisaoByPra.sql" />
+    <Build Include="SProcedures\Professores\sp_GetProfessorByDisciplinaTurma.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByID1.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByID5.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByID2.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByID3.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByID4.sql" />
+    <Build Include="SProcedures\Disciplinas\sp_GetDisciplinaByModulo.sql" />
+    <Build Include="SProcedures\Alunos\sp_DeleteAlunoByIDUser.sql" />
+    <Build Include="SProcedures\Professores\sp_DeleteProfessorByIDUser.sql" />
+    <Build Include="SProcedures\DT\sp_DeleteDTByIDProf.sql" />
+    <Build Include="SProcedures\Turmas\sp_DeleteTurmaDTByIDProf.sql" />
+    <Build Include="SProcedures\Turmas\sp_DeleteTurmaByIDProf.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="GestorDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\Users\sp_InsertUserAluno.sql" />
+    <Build Include="SProcedures\Alunos\sp_InsertAluno.sql" />
+    <Build Include="SProcedures\Users\sp_AuthenticateUser.sql" />
+    <Build Include="SProcedures\Users\sp_DeleteUserByID.sql" />
+    <Build Include="SProcedures\Users\sp_GetUserByEmail.sql" />
+    <Build Include="SProcedures\Users\sp_GetUserByID.sql" />
+    <Build Include="SProcedures\Users\sp_GetUsers.sql" />
+    <Build Include="SProcedures\Users\sp_UpdateUserByID.sql" />
+    <Build Include="SProcedures\Alunos\sp_UpdateAlunoByID.sql" />
+    <Build Include="SProcedures\Alunos\sp_GetAlunoByID.sql" />
+    <Build Include="SProcedures\Alunos\sp_DeleteAlunoByID.sql" />
+    <Build Include="SProcedures\Professores\sp_InsertProfessor.sql" />
+    <Build Include="SProcedures\Professores\sp_DeleteProfessorByID.sql" />
+    <Build Include="SProcedures\Professores\sp_UpdateProfessorByID.sql" />
+    <Build Include="SProcedures\Professores\sp_GetProfessorByID.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\Cursos\sp_GetCursos.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmas.sql" />
+    <Build Include="SProcedures\Turmas\sp_GetTurmaByID.sql" />
+    <Build Include="SProcedures\Cursos\sp_GetCursoByID.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\Turmas\sp_GetTurmaIDCurso.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\PRA\Decisao\sp_InsertDecisao.sql" />
+    <Build Include="SProcedures\PRA\Principal\sp_InsertPrincipal.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_InsertDM.sql" />
+    <Build Include="SProcedures\PRA\Medidas\sp_InsertMedidas.sql" />
+    <Build Include="SProcedures\PRA\Notificacoes\sp_InsertNotificacoes.sql" />
+    <Build Include="SProcedures\PRA\Pra\sp_InsertPra.sql" />
+    <Build Include="SProcedures\Alunos\sp_GetAlunos.sql" />
+    <Build Include="SProcedures\PRH\Avaliacao\sp_InsertAvaliacao.sql" />
+    <Build Include="SProcedures\PRH\Descricaoatividades\sp_InsertDescricaoatividades.sql" />
+    <Build Include="SProcedures\PRH\Prh\sp_InsertPrh.sql" />
+    <Build Include="SProcedures\PRH\PrhPrincipal\sp_InsertPrhPrincipal.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_InsertDM2.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_InsertDM3.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_InsertDM4.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_InsertDM5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\PRA\Pra\sp_GetPraByCode.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao.sql" />
+    <Build Include="SProcedures\PRA\DM\sp_GetDMByCode.sql" />
+    <Build Include="SProcedures\PRA\PraDMLigacao\sp_InsertPraDMLigacao2.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\Alunos\sp_GetAlunoByName.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\Disciplinas\sp_GetDisciplinas.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\PRA\Pra\sp_UpdatePraByID.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SProcedures\Professores\sp_GetProfessorByUserID.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SProcedures\Turmas\sp_GetTurmaByProfessor.sql" />
+    <Build Include="SProcedures\Password\sp_InsertPwdRequest.sql" />
+  </ItemGroup>
+</Project>

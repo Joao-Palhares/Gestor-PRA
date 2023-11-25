@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[tblPra]
+(
+	[id_pra] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [id_principal] INT NOT NULL, 
+    [id_medidas] INT NULL, 
+    [id_notificaçoes] INT NULL,
+    [id_decisao] INT NULL,
+    [codigo_pra] VARCHAR(20) NOT NULL, 
+    [id_aluno] INT NOT NULL, 
+    [id_turma] INT NOT NULL, 
+    [id_dt] INT NOT NULL, 
+    [estado] VARCHAR(100) NOT NULL, 
+    [progresso] VARCHAR(100) NOT NULL, 
+    [id_professor1] INT NULL, 
+    [id_professor2] INT NULL, 
+    [id_professor3] INT NULL, 
+    [id_professor4] INT NULL, 
+    [id_professor5] INT NULL, 
+    [ndisciplinas] INT NULL, 
+    [id_dm1] INT NULL,
+    [id_dm2] INT NULL,
+    [id_dm3] INT NULL,
+    [id_dm4] INT NULL,
+    [id_dm5] INT NULL
+)
