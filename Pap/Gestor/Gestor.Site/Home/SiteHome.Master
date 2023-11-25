@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteHome.master.cs" Inherits="Gestor.Site.Home.SiteHome" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/CustomStyles/LibraryStyles/custom_style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="/Home/Home.aspx">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto" >
+                    <li class="nav-item active" id="navLinkUsers" runat="server">
+                        <a class="nav-link" href="/Administration/UserManagement.aspx">Users</a>
+                    </li>
+                    <li  class="nav-item active" id="navLinkinserirpra" runat="server">
+                        <a class="nav-link" href="/Home/InserirPra.aspx" style="display:">Criar um PRA</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkinserirprh" runat="server">
+                        <a class="nav-link" href="/Home/InserirPrh.aspx">Criar um PRH</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkregisteraluno" runat="server">
+                        <a class="nav-link" href="/Administration/Register.aspx">Register de alunos</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkregisterprof" runat="server">
+                        <a class="nav-link" href="/Administration/RegisterProf.aspx">Register de Professores</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkregistercurso" runat="server">
+                        <a class="nav-link" href="/Administration/RegisterCursos.aspx">Register de Cursos</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkregisterturma" runat="server">
+                        <a class="nav-link" href="/Administration/RegisterTurmas.aspx">Register de Turmas</a>
+                    </li>
+                    <li  class="nav-item active" id="navLinkregisteradmin" runat="server">
+                        <a class="nav-link" href="/Administration/RegisterAdmin.aspx">Register de Admin</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkPlanos" runat="server">
+                        <a class="nav-link" href="/Home/Planos.aspx">Planos de Recuperação de Horas</a>
+                    </li>
+                    <li class="nav-item active" id="navLinkPlanosPra" runat="server">
+                        <a class="nav-link" href="/Home/PlanosPra.aspx">Planos de Recuperação das Aprendizagens</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="padding-left: 1rem">
+                <asp:Button ID="blogout" Text="Logout" CausesValidation="false" runat="server" OnClick="blogout_Click" />
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h2>PGest - Planos de Recuperação </h2>
+        </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+    </form>
+
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/popper.min.js"></script>
+</body>
+</html>
